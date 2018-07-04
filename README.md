@@ -17,4 +17,8 @@ docker load -i <path to image tar file>
 
 docker run -it --rm --net=host compiled_cartographer_ros
 
+3. Inside docker run:
+
+roslaunch cartographer_ros backpack_2d.launch 
+
 This line will expose your ROS network to Docker so Cartographer run like it would have if it was local
