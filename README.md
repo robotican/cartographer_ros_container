@@ -5,8 +5,9 @@ Cartographer ROS contained in Docker to prevent clashing between protobufs versi
 ## Installation
 
 1. [Install Docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository)
-2. Download this Docker Image tar file
-3. Load the image to your Docker:
+2. Download this Docker Image zip file
+3. Unzip the image file
+4. Load the image tar file to your Docker:
 
 docker load -i <path to image tar file>
 
